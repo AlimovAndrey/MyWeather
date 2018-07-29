@@ -49,7 +49,6 @@ class RestClientModule {
         httpClient.readTimeout(RestConstant.REST_TIMEOUT_IN_SECONDS, TimeUnit.SECONDS)
         httpClient.connectTimeout(RestConstant.REST_TIMEOUT_IN_SECONDS, TimeUnit.SECONDS)
         httpClient.addInterceptor(loggingInterceptor)
-        //httpClient.addInterceptor(customHeaderInterceptor) TODO add app key to each request
         return httpClient.build()
     }
 
