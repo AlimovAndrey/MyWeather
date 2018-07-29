@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+
+    <string name="location_temperature">%d \u00B0C</string>
+    <string name="location_humidity">Humidity %d</string>
+    <string name="location_wind">Wind %d m/c</string>
+</resources>
